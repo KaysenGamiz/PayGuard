@@ -11,6 +11,5 @@ def get_db_connection():
         password=os.getenv('DB_PASSWORD'),
         host=os.getenv('DB_HOST'),
         port=os.getenv('DB_PORT'),
-        sslmode='disable'
     )
     return conn
